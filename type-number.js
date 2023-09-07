@@ -1,19 +1,24 @@
-//type number 
+// tipo Number
 
-const meuNumero = 2; 
+const meuNumero = 3;
 
 const primeiroNumero = 1;
-const segundoNumero = 4
+const segundoNumero = 2;
 
-const operacaoMatematica = primeiroNumero + segundoNumero;
+const operacaoMatematica = primeiroNumero - segundoNumero;
 
+console.log(operacaoMatematica)
 
+// ponto flutuante
 
-//ponto flutuante
-
-const pontoFlutuante = 3.3;
+const numeroPontoFlutuante = 3.3;
 const pontoFlutuanteSemZero = .5;
 
-const novaOperacao = pontoFlutuante / pontoFlutuanteSemZero;
-console.log(novaOperacao);
+const novaOperacao = primeiroNumero / numeroPontoFlutuante;
 
+console.log(novaOperacao)
+
+// NaN -> Not A Number (não é um número)
+
+const alura = "Alura";
+console.log(alura * primeiroNumero)
